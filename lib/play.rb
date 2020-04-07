@@ -38,8 +38,8 @@ end
 def play(board)
   valid_moves = 0
   until valid_moves == 9
-    if turn(board)
-      valid_moves +=1
+    turn(board)
+    valid_moves +=1
   end
 end
   
