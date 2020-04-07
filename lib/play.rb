@@ -36,6 +36,8 @@ def turn(board)
 end
 
 def play(board)
-  until valid_moves == 9
+  until board[1-9] == "X"
     turn(board)
+  end
+end
   
